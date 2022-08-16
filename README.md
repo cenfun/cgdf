@@ -23,10 +23,13 @@
     ] 
 }
 ```
-### Simple Data with Extensible Column
+### Simple Data with Extensible Column (Header value located by name)
 ```js
 {
-    columns: ["Column 1", {
+    columns: [{
+        name: "Column 1",
+        otherKey: "Some Value"
+    }, {
         name: "Column 2",
         align: "center"
     }, {
@@ -41,7 +44,7 @@
 }
 ```
 
-## Extensible Data (Object/Array - Cell value located by id)
+## Extensible Data (Object/Array - Cell value located by id => key:value)
 ```js
 {
     options: {},
