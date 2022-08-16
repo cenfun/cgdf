@@ -11,7 +11,7 @@
 }
 ```
 
-## Simple Data (String/Array - Cell value locate by index)
+## Simple Data (String/Array - Cell value located by index)
 ```js
 {
     options: {},
@@ -41,7 +41,7 @@
 }
 ```
 
-## Extensible Data (Object - Cell value locate by id)
+## Extensible Data (Object/Array - Cell value located by id)
 ```js
 {
     options: {},
